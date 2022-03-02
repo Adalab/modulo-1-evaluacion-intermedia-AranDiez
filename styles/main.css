@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --fontfamily: "Rubik", sans-serif;
+}
+.header {
+  font-family: var(--fontfamily);
+  display: flex;
+  position: sticky;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.logo-top {
+}
+.navigator-menu {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-links {
+  display: inline-block;
+}
