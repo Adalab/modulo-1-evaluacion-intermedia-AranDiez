@@ -16,13 +16,34 @@
   align-items: center;
 }
 .logo-top {
+  width: 155px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .navigator-menu {
+  padding-bottom: 13px;
+  color: #4a4a4a;
   text-align: left;
   display: flex;
   justify-content: space-around;
 }
-
 .menu-links {
   display: inline-block;
+  padding-left: 20px;
+  font-size: 16px;
+}
+.main {
+  background-color: #3cdbc0;
+  color: #ffffff;
+  font-family: var(--fontfamily);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
