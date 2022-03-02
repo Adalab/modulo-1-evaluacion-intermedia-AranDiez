@@ -34,7 +34,7 @@
 .menu-links {
   display: inline-block;
   padding-left: 20px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .main {
   background-color: #3cdbc0;
@@ -47,10 +47,24 @@
   align-items: center;
 }
 .section-main {
-  font-size: 30px;
+  font-size: 1.875rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 @media all and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .logo-top {
+    width: 155px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
+  .menu-links {
+    padding-right: ;
+  }
 }
